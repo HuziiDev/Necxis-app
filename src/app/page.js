@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { Button, Typography, Container } from '@mui/material';
-import { auth, provider, signInWithPopup } from '../firebaseConfig';
+import { auth, provider, signInWithPopup } from '../../firebaseConfig.js'
 
 export default function Page() {
   const [user, setUser] = useState(null);
